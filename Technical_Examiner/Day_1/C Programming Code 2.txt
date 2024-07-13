@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main(void) {
+    printf("messi is the right wing\n"
+            "neymar is the left wing\n"
+            "suarez is the striker\n");
+}
+
+
+
+correct: there is no error in this code
+wrong: syntax error in printf function, missing ',' between strings
+wrong: missing return 0
+wrong: main function should have no arguments

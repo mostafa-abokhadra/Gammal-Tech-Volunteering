@@ -16,6 +16,7 @@ int main() {
 }
 
 
+
 correct: syntax error in snprintf function
 wrong: missing library for sizeof function to work
 wrong: we should use %c instead of %s in print function to print "quote" variable
