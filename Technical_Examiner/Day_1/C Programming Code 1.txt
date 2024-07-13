@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdbool.h>
+int main() {
+    bool fear = true;
+    char quote [256];
+    if (fear) {
+        snprintf(
+            quote, sizeof(quote), 
+            "the amateur believes he must first overcome his fear then he can do his work\n",
+            "the professional knows that fear can never be overcome\n",
+            "he knows theres is no such thing as a fearless warrior or a dread free artist\n"
+            );
+    }
+    printf("%s", quote);
+    return 0;
+}
+
+
+correct: syntax error in snprintf function
+wrong: missing library for sizeof function to work
+wrong: we should use %c instead of %s in print function to print "quote" variable
+wrong: there is no existing functin called snprintf
