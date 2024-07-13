@@ -1,0 +1,23 @@
+#include <stdio.h>
+void array_iterator(int *array, size_t size, void (*action)(int))
+{
+		unsigned int i;
+		for (i = 0; i < size; i++){
+			action(array[i]);
+		}
+}
+void print_elem(int elem){
+    printf("%d\n", elem);
+}
+int main() {
+    int array[5] = {0, 98, 402, 1024, 4096};
+    array_iterator(array, 5, &print_elem);
+}
+
+
+
+what is the results:
+correct: 0 98 402 1024 4096
+wrong: syntax error: print_elem not defined
+wrong: syntax error in array_iterator definition
+wrong: "action" is not defined
