@@ -1,4 +1,14 @@
 what i have done today:
+    i setup a github repository that will contain all of the volunteering tasks
+    i revised my C languagh notes
+    i coded 7 tracing tests using C programming languagh
 challenges:
+    i hadn't had too many challenges because i'm already in a deep knoweledge about C programming
+        and git and
 tomorrow tasks:
+    coding different tracing tests according to the specified languagh
 suggestions:
+    to help people understand the requirements of the volunteering tasks more easily, i'm planning to
+    upload all of the volunteering code and reports in a github repo, i already made this repo and pushed
+    first day data in it, the repo will be finished once i finish my volunteering
+    you can check the repo in this link: https://github.com/mostafa-abokhadra/Gammal-Tech-Volunteering

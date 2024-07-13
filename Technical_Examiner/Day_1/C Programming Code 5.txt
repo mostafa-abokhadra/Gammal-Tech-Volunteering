@@ -10,6 +10,7 @@ int main(void) {
 }
 
 
+
 what is the results:
 correct: syntax error using pointer "." instead of '->'
 wrong: mostafa
