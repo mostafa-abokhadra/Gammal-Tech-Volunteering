@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <string.h>
+int main(void) {
+    char string [] = "hello world";
+    char string2 []  = "hello world";
+    if (strcmp(string, string2)) {
+        printf("both strings are similar\n");
+    }
+    else {
+        printf("not similar\n");
+    }
+}
+
+
+
+what is the output:
+correct: not similar
+wrong: both strings are similar
+wrong: hello world
+wrong: syntax error in strcmp
