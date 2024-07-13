@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main(void) {
+    int numbers [6] = {1, 2, 3, 4, 5};
+    for (int i = 0; i < 5; i++){
+        printf("%ld ", sizeof(numbers) / sizeof(numbers[i]));
+    }
+}
+
+
+
+what is the correct output:
+correct: 6 6 6 6 6
+wrong: 1 2 3 4 5
+wrong: 5 4 3 2 1
+wrong: syntax error in printf
