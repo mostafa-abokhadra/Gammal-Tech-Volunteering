@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include<stdlib.h>
+struct Users {
+    char user_name [50];
+};
+int main(void) {
+    struct Users *user1 = malloc(sizeof(struct Users));
+    sprintf(user1.user_name, "mostafa");
+    printf("%s\n", user1.user_name);
+}
+
+
+what is the results:
+correct: syntax error using pointer "." instead of '->'
+wrong: mostafa
+wrong: garbage value
+wrong: sementation error
