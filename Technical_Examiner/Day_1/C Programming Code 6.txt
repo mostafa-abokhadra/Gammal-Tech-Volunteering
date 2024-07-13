@@ -1,0 +1,21 @@
+#include <stdio.h>
+void recurssive_print(char *s)
+{
+		if (*s == '\0'){
+			putchar('\n');
+			return;
+		}
+		putchar(*s);
+		recurssive_print(++s);
+}
+int main(void) {
+    recurssive_print("hello world");
+}
+
+
+
+what is the results:
+correct: hellow world in stdout
+wrong: stack overflow error
+wrong: syntax error : can not increment pointers
+wrong: putchar not defined errro
